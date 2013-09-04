@@ -1,7 +1,8 @@
 vimplugins
 ==========
 
-Some plugins I use into vim editor and vimrc configuration. Use vimrc.txt with a symb link.
+Some plugins I use into vim editor and vimrc configuration. Use vimrc.txt with a symbolic link.
+#TODO detail used plugins.
 
 Instructions: 
 
