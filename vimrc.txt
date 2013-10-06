@@ -1,11 +1,13 @@
 execute pathogen#infect()
 syntax on
+
 autocmd vimenter * if !argc() | NERDTree | endif
+#config_to_debugger
 let g:dbgPavimPort = 9002
 let g:dbgPavimBreakAtEntry = 0
-
 let g:dbgPavimPathMap = [['/Users/luz/Documents/workspace/atelier/wp-atelier','/var/www/wp-atelier'],]
 
+#config_search_files
 let g:ctrlp_map = '<Leader>t'
 let g:ctrlp_match_window_bottom = 0
 let g:ctrlp_match_window_reversed = 0
@@ -14,3 +16,9 @@ let g:ctrlp_root_markers = ['.ctrlp']
 let g:ctrlp_dotfiles = 0                                                                                                                                           
 let g:ctrlp_switch_buffer = 0
 let g:ctrlp_max_files=0
+
+#config_used_files_buffer
+let MRU_Max_Entries = 1000 
+let MRU_Exclude_Files = '^/tmp/.*\|^/var/tmp/.*'  " For Unix 
+let MRU_Max_Menu_Entries = 20 
+let MRU_Auto_Close = 0 
