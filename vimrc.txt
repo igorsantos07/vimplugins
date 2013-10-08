@@ -2,7 +2,9 @@ execute pathogen#infect()
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 syntax on
 
+"nerdtree auto exec and autoclose
 autocmd vimenter * if !argc() | NERDTree | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 "config_to_debugger
 let g:dbgPavimPort = 9002
@@ -32,3 +34,4 @@ nmap <silent> <A-Up> :wincmd k<CR>
 nmap <silent> <A-Down> :wincmd j<CR>
 nmap <silent> <A-Left> :wincmd h<CR>
 nmap <silent> <A-Right> :wincmd l<CR>
+
