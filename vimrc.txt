@@ -23,6 +23,16 @@ let g:ctrlp_dotfiles = 0
 let g:ctrlp_switch_buffer = 0
 let g:ctrlp_max_files=0
 
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
+set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
+
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+  \ 'file': '\v\.(exe|so|dll)$',
+  \ 'link': 'some_bad_symbolic_links',
+  \ }
+
 "config_used_files_buffer
 let MRU_Max_Entries = 1000 
 let MRU_Exclude_Files = '^/tmp/.*\|^/var/tmp/.*'  " For Unix 
