@@ -11,7 +11,11 @@ After vim install clone this:
  
 cd ~/.vim
 
-git clone git@github.com:luzeduardo/vimplugins.git
+You need to cleanup your vim dir to clone this repo:
+
+rm -rf ~/.vim/*
+
+git clone git@github.com:luzeduardo/vimplugins.git .
 
 cd ~
 
