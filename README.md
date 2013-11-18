@@ -23,3 +23,6 @@ ln -sf ~/.vim/vimrc.txt ~/.vimrc
 
 Use vimrc.txt as source for vim configuration and make a symbolic link to this file in your home dir and enjoy!
 
+Don't know why but you need to run NerdTree install again
+
+https://github.com/scrooloose/nerdtree
