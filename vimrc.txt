@@ -45,6 +45,7 @@ nmap <silent> <A-Right> :wincmd l<CR>
 
 "####################################################################################
 "Enabling colors
+"https://github.com/AndrewRadev/Vimfiles/blob/master/colors/andrew.vim
 "####################################################################################
 set background=dark
 hi clear
