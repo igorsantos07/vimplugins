@@ -29,6 +29,6 @@ Don't know why but you need to run NerdTree install again
 https://github.com/scrooloose/nerdtree
 
 After that:
-source ~/.vim
+source ~/.vimrc
 
-Enjoy
+call vim in shell and Enjoy!
