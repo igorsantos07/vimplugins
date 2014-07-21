@@ -7,28 +7,32 @@ TODO detail used plugins.
 
 Instructions: 
 
-cd ~/.vim
+cd ~
 
 You need to cleanup your vim dir to clone this repo:
 
-rm -rf ~/.vim/*
+sudo rm -rf ~/.vim
 
 Clone into a dir as you wish, at your home for example: ~/vimplugins
-cd ~
+
 git clone git@github.com:luzeduardo/vimplugins.git .
 
 cd ~
+
 Create a link for vim plugins into the repo plugins folder:
-ln -s ~/vimplugins ~/.vim
+
+sudo ln -s ~/vimplugins ~/.vim
 
 Create a link for bootstrap vim file
-ln -sf ~/vimplugins/vimrc.txt ~/.vimrc
+
+sudo ln -sf ~/vimplugins/vimrc.txt ~/.vimrc
 
 Don't know why but you need to run NerdTree install again
 
 https://github.com/scrooloose/nerdtree
 
 After that:
+
 source ~/.vimrc
 
 call vim in shell and Enjoy!
