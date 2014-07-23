@@ -14,7 +14,12 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 "config_to_debugger
 let g:dbgPavimPort = 9009
 let g:dbgPavimBreakAtEntry = 0
-let g:dbgPavimPathMap = [['/Users/luz/Documents/workspace/atelier/wp-atelier','/var/www/wp-atelier'],]
+
+"checking in project for debugger path mapping
+"if filereadable()
+"    :let @x = readfile()  
+"    let g:dbgPavimPathMap = [['/Users/luz/Documents/workspace/atelier/wp-atelier','/var/www/wp-atelier'],]
+"endif
 
 "config_search_files
 let g:ctrlp_map = '<c-p>'
