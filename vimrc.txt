@@ -316,5 +316,3 @@ setlocal foldmethod=manual
 " Turn on PHP fast folds
 let php_folding=0
 
-"twig as html
-autocmd BufNewFile,BufRead *.html.twig   set syntax=html
