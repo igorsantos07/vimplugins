@@ -15,11 +15,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 let g:dbgPavimPort = 9009
 let g:dbgPavimBreakAtEntry = 0
 
-"checking in project for debugger path mapping
-"if filereadable()
-"    :let @x = readfile()  
-"    let g:dbgPavimPathMap = [['/Users/luz/Documents/workspace/atelier/wp-atelier','/var/www/wp-atelier'],]
-"endif
+"if is necessary to use a debugger from a remote YOU NEED to configure a path mapping
+"let g:dbgPavimPathMap = [['/Users/luz/Documents/workspace/atelier/wp-atelier','/var/www/wp-atelier'],]
 
 "config_search_files
 let g:ctrlp_map = '<c-p>'
@@ -315,4 +312,5 @@ setlocal foldmethod=manual
 
 " Turn on PHP fast folds
 let php_folding=0
+
 
