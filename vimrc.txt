@@ -28,6 +28,15 @@ set number
 
     "if is necessary to use a debugger from a remote YOU NEED to configure a path mapping
     "let g:dbgPavimPathMap = [['/Users/luz/Documents/workspace/atelier/wp-atelier','/var/www/wp-atelier'],]
+    let g:dbgPavimKeyRun = '<F8>'
+    let g:dbgPavimKeyStepOver = '<F10>'
+    let g:dbgPavimKeyStepInto = '<F11>'
+    let g:dbgPavimKeyStepOut = '<F12>'
+    let g:dbgPavimKeyPropertyGet = '<F3>'
+    let g:dbgPavimKeyContextGet = '<F4>'
+    let g:dbgPavimKeyToggleBp = '<F9>'
+    let g:dbgPavimKeyToggleBae = '<F5>'
+    let g:dbgPavimKeyRelayout = '<F2>'
 
 "}
 
