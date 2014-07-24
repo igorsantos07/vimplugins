@@ -301,3 +301,19 @@ set ruler
 set hlsearch
 set incsearch " ...dynamically as they are typed.
 set listchars=tab:>-,trail:·,eol:$
+
+" enabling plugins
+let b:did_ftplugin = 1
+
+" enabling php folding function keys
+map <F5> <Esc>:EnableFastPHPFolds<Cr>
+map <F6> <Esc>:EnablePHPFolds<Cr>
+map <F7> <Esc>:DisablePHPFolds<Cr> 
+
+" Don't use the PHP syntax folding
+setlocal foldmethod=manual
+
+" Turn on PHP fast folds
+EnableFastPHPFolds
+let php_folding=0
+
