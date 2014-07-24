@@ -23,6 +23,7 @@ set number
 
 "config_to_debugger
 " DBGPAVIM {
+    "repo for some hints and source https://github.com/brookhong/DBGPavim
     let g:dbgPavimPort = 9009
     let g:dbgPavimBreakAtEntry = 0
 
