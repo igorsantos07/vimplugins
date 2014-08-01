@@ -1,38 +1,38 @@
 vimplugins
 ==========
 
-Some plugins I use into vim editor and vimrc configuration. Use vimrc.txt with a symbolic link.
+Some plugins I use in my `vim` editor and `vimrc` configuration. Use vimrc.txt with a symbolic link.
 
-TODO detail used plugins.
+> TODO: detail all used plugins.
 
-Instructions: 
-
-cd ~
+Instructions 
+------------
 
 You need to cleanup your vim dir to clone this repo:
 
-sudo rm -rf ~/.vim
+`sudo rm -rf ~/.vim`
 
-Clone into a dir as you wish, at your home for example: ~/vimplugins
+Clone into a dir as you wish, at your home for example: `~/vimplugins`
 
-git clone git@github.com:luzeduardo/vimplugins.git .
-
+```bash
 cd ~
+git clone git@github.com:luzeduardo/vimplugins.git .
+```
 
-Create a link for vim plugins into the repo plugins folder:
+Create a link of vimplugins as the vim config folder:
 
-sudo ln -s ~/vimplugins ~/.vim
+`sudo ln -s ~/vimplugins ~/.vim`
 
-Create a link for bootstrap vim file
+Create a link to bootstrap your vim file:
 
-sudo ln -sf ~/vimplugins/vimrc.txt ~/.vimrc
+`sudo ln -sf ~/vimplugins/vimrc.txt ~/.vimrc`
 
-Don't know why but you need to run NerdTree install again
+I don't know why but you'll need to run NerdTree install again:
 
-https://github.com/scrooloose/nerdtree
+> https://github.com/scrooloose/nerdtree
 
 After that:
 
-source ~/.vimrc
+`source ~/.vimrc`
 
-call vim in shell and Enjoy!
+Run `vim` in your shell and enjoy!
